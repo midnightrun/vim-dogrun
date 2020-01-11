@@ -407,5 +407,23 @@ pub fn get_highlights() -> Vec<Highlight> {
         hi!(EasyMotionTarget, yellow, -, -, Bold),
         hi!(EasyMotionShade, weakfg, mainbg, -, -),
         hi!(EasyMotionIncCursor, mainfg, mainbg, -, -),
+        // rainbow_parentheses.vim
+        // https://github.com/junegunn/rainbow_parentheses.vim
+        hi!(rainbowParensShell1, mainfg, -, -, None),
+        hi!(rainbowParensShell2, pink, -, -, None),
+        hi!(rainbowParensShell3, purple, -, -, None),
+        hi!(rainbowParensShell4, teal, -, -, None),
+        hi!(rainbowParensShell5, cyan, -, -, None),
+        hi!(rainbowParensShell6, green, -, -, None),
+        hi!(rainbowParensShell7, yellow, -, -, None),
+        hi!(rainbowParensShell8, weakfg, -, -, None),
+        hi!(rainbowParensShell9, mainfg, -, -, None),
+        hi!(rainbowParensShell10, pink, -, -, None),
+        hi!(rainbowParensShell11, purple, -, -, None),
+        hi!(rainbowParensShell12, teal, -, -, None),
+        hi!(rainbowParensShell13, cyan, -, -, None),
+        hi!(rainbowParensShell14, green, -, -, None),
+        hi!(rainbowParensShell15, yellow, -, -, None),
+        hi!(rainbowParensShell16, weakfg, -, -, None),
     ];
 }
